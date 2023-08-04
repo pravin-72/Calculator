@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first-wrapper{
+  width: 20%;
+  height: 600px;
+    background-color: rgb(59, 30, 30);
+    margin: 70px 0 0 550px;
+    border-radius: 20px;
+}
+.first-wrapper>div:first-child input{
+    width: 90%;
+    height: 40px;
+    border-radius: 15px;
+    margin-left: 8px;
+    margin-top: 60%;
+    padding-left: 10px;
+    background-color: rgb(214, 214, 223);
+}
+.first-wrapper>div:nth-child(2) button{
+border-radius: 50%;
+padding: 30px;
+margin-left: 2px;
+margin-top: 20px;
+font-size: 15px;
+background-color: darkgrey;
+}
+.first-wrapper>div:nth-child(3) button{
+    border-radius: 50%;
+    padding: 30px;
+    margin-left: 2px;
+    margin-top: 4px;
+    font-size: 15px;
+    background-color: darkgrey;
+}
+
+.first-wrapper>div:nth-child(4) button{
+    border-radius: 50%;
+    padding: 30px;
+    margin-left: 2px;
+    margin-top: 4px;
+    font-size: 15px;
+    background-color: darkgrey;
+    }
+    .first-wrapper>div:last-child button{
+        border-radius: 50%;
+        padding: 30px;
+        margin-left: 2px;
+        margin-top: 4px;
+        font-size: 15px;
+        background-color: darkgrey;
+
+    }
+.first-wrapper>div:nth-child(2) button:hover,
+.first-wrapper>div:nth-child(3) button:hover,
+.first-wrapper>div:nth-child(4) button:hover,
+.first-wrapper>div:last-child button:hover
+{
+    background-color: darkgreen;
+}
